@@ -8,7 +8,7 @@ contract myContract{
     function set(string memory _value) public {
         stringValue = _value;
     }
-    // contant keyword makes it a contant
+    // constant keyword makes it a contant
     string public constant stringValueConstant = "myValue";
     
     bool public boolValue = true;
