@@ -14,7 +14,7 @@ contract myContract {
         people.push(person(_firstName, _lastName));
         personCount += 1;
     }
-    // instead of creating an array of the type person (which is a struct), we can use the mapping.
+    // instead of creating an array of the type struct, we can use the mapping.
     // a mapping is a key value pair, like a dict in python
     struct animal{
         uint _id ;
